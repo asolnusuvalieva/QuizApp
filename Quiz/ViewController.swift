@@ -1,21 +1,25 @@
-//
-//  ViewController.swift
-//  Quiz
-//
-//  Created by Asol on 1/25/21.
-//  Copyright © 2021 Asol. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
-
+    //MARK: Properties
+    @IBOutlet var questionLabel: UILabel!
+    @IBOutlet var answerLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("Hello, World!")
     }
 
+    
+    //MARK: - Actions
+    @IBAction func showNextQuestion(){
+        
+    }
 
+    @IBAction func showAnswer(){
+        
+    }
 }
 

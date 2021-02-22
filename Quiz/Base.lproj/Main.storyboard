@@ -51,6 +51,10 @@
                             <constraint firstItem="Lb6-Hi-7R8" firstAttribute="centerX" secondItem="Cdo-c8-Rfr" secondAttribute="centerX" id="ya6-mX-TdY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="Bfc-sJ-y1o" id="vkT-gY-vjR"/>
+                        <outlet property="questionLabel" destination="Cdo-c8-Rfr" id="T15-8d-jPT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
