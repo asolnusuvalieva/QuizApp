@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         questionLabel.text = questions[currentQuestionIndex]
-        answerLabel.text = "❓❓❓"
     }
     
     
@@ -29,6 +28,7 @@ class ViewController: UIViewController {
         let question = questions[currentQuestionIndex]
         questionLabel.text = question
         
+        answerLabel.text = "❓❓❓" //answer should be hidden whenever a new q appears
     }
 
     @IBAction func showAnswer(_ sender: UIButton){
